@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREA2T2P2</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+		<div class="contenedor">
+			<h2 class="logotipo">PiChePlus</h2>
+			<nav>
+				<a href="#" class="activo">Inicio</a>
+				<a href="#">Programas</a>
+				<a href="#peliculas">Películas</a>
+				<a href="#">Más Recientes</a>
+				<a href="#integrantes">Integrantes</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="pelicula-principal">
+			<div class="contenedor">
+				<h3 class="titulo">Kung Fu Panda 2</h3>
+				<p class="descripcion">
+					Po y sus amigos luchan para evitar que un villano de color pavo real conquiste China con una nueva 
+                    y mortal arma, pero primero el Guerrero Dragón debe aceptar su pasado.
+				</p>
+				<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más información</button>
+			</div>
+		</div>
+        <div class="ful-img" id="fulImgBox">
+            <img src="imgs/1.jpg" id="fulImg" alt="">
+            <span onclick="closeImg()">X</span>
+            </div>
+            <h1 id="peliculas"><span>Peliculas recomendadas</span></h1>
+            <div class="img-gallery">
+            <img src="img1.webp" onclick="openFulImg(this.src)" alt="">
+            <img src="img2.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="img3.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="img5.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="img4.jpg" onclick="openFulImg(this.src)" alt="">
+            <img src="img7.webp" onclick="openFulImg(this.src)" alt="">
+            <img src="img6.avif" onclick="openFulImg(this.src)" alt="">
+            <img src="img8.jpg" onclick="openFulImg(this.src)" alt="">
+            </div>
+            <script src="script.js"></script>
+
+                <div class="integrantes" id="integrantes">
+                        <p>Pierina Pincay y Odalys Chele</p>
+                </div>
+           
+	</main>
+	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+    
+</body>
+</html>
